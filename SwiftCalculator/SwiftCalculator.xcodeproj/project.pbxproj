@@ -118,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F46420F41A02C363006F6227 /* SwiftCalculator */ = {
+		F46420F41A02C363006F6227 /* Swift Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F46421141A02C363006F6227 /* Build configuration list for PBXNativeTarget "SwiftCalculator" */;
+			buildConfigurationList = F46421141A02C363006F6227 /* Build configuration list for PBXNativeTarget "Swift Calculator" */;
 			buildPhases = (
 				F46420F11A02C363006F6227 /* Sources */,
 				F46420F21A02C363006F6227 /* Frameworks */,
@@ -130,7 +130,7 @@
 			);
 			dependencies = (
 			);
-			name = SwiftCalculator;
+			name = "Swift Calculator";
 			productName = SwiftCalculator;
 			productReference = F46420F51A02C363006F6227 /* SwiftCalculator.app */;
 			productType = "com.apple.product-type.application";
@@ -185,7 +185,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F46420F41A02C363006F6227 /* SwiftCalculator */,
+				F46420F41A02C363006F6227 /* Swift Calculator */,
 				F46421091A02C363006F6227 /* SwiftCalculatorTests */,
 			);
 		};
@@ -235,7 +235,7 @@
 /* Begin PBXTargetDependency section */
 		F464210C1A02C363006F6227 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F46420F41A02C363006F6227 /* SwiftCalculator */;
+			target = F46420F41A02C363006F6227 /* Swift Calculator */;
 			targetProxy = F464210B1A02C363006F6227 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -346,7 +346,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Debug;
 		};
@@ -357,7 +357,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Release;
 		};
@@ -407,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F46421141A02C363006F6227 /* Build configuration list for PBXNativeTarget "SwiftCalculator" */ = {
+		F46421141A02C363006F6227 /* Build configuration list for PBXNativeTarget "Swift Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F46421151A02C363006F6227 /* Debug */,
