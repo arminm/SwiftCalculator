@@ -49,7 +49,13 @@ class CalcViewController : UIViewController {
         // Perform previous operation if a new operation button is pressed
         // (result would be nil, thus not triggering, for the first operation press)
         if let result = brain.performOperation() {
-            resultLabel.text = result
+            
+            // Check for decimals
+            if floor(result) == result && result < Double(Int.max) && result > Double(Int.min) {
+                resultLabel.text = "\(Int(result))" // No .0 decimal shown
+            } else {
+                resultLabel.text =  "\(result)"
+            }
         }
 
         // Check for operation type and set brain.operation

@@ -26,7 +26,8 @@ class CalcBrainModel {
         reset()
     }
     
-    func performOperation() -> String? {
+    // Perform operation and return result
+    func performOperation() -> Double? {
         if operand != nil && total != nil && operation != nil {
             var result : Double
             switch operation! {
@@ -44,11 +45,7 @@ class CalcBrainModel {
             
             operand = nil
             total = result
-            if floor(result) == result && result < Double(Int.max) && result > Double(Int.min) {
-                return "\(Int(result))"
-            } else {
-                return "\(result)"
-            }
+            return result
         } else if total == nil && operand != nil {
             total = operand
             operand = nil
@@ -58,6 +55,7 @@ class CalcBrainModel {
         }
     }
     
+    // Reset all variables
     func reset () {
         operand = nil
         total = nil
