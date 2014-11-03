@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F450C5011A076C760052887B /* CalcBrainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450C5001A076C760052887B /* CalcBrainModel.swift */; };
 		F46420FB1A02C363006F6227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46420FA1A02C363006F6227 /* AppDelegate.swift */; };
 		F46420FD1A02C363006F6227 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46420FC1A02C363006F6227 /* CalcViewController.swift */; };
 		F46421001A02C363006F6227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46420FE1A02C363006F6227 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F450C5001A076C760052887B /* CalcBrainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcBrainModel.swift; sourceTree = "<group>"; };
 		F46420F51A02C363006F6227 /* SwiftCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46420F91A02C363006F6227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F46420FA1A02C363006F6227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				F46420FA1A02C363006F6227 /* AppDelegate.swift */,
 				F46420FC1A02C363006F6227 /* CalcViewController.swift */,
+				F450C5001A076C760052887B /* CalcBrainModel.swift */,
 				F46420FE1A02C363006F6227 /* Main.storyboard */,
 				F46421011A02C363006F6227 /* Images.xcassets */,
 				F46421031A02C363006F6227 /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			files = (
 				F46420FD1A02C363006F6227 /* CalcViewController.swift in Sources */,
 				F46420FB1A02C363006F6227 /* AppDelegate.swift in Sources */,
+				F450C5011A076C760052887B /* CalcBrainModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
