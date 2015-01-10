@@ -26,10 +26,11 @@ class CalcBrainModel {
         reset()
     }
     
-    // Perform operation and return result
+    // Perform operation on the total carrying forward with the new operand, and return the result as a Double
     func performOperation() -> Double? {
         if operand != nil && total != nil && operation != nil {
             var result : Double
+            
             switch operation! {
             case .addition:
                 result = total! + operand!
@@ -55,7 +56,7 @@ class CalcBrainModel {
         }
     }
     
-    // Reset all variables
+    // Reset all variables to reset the calculator
     func reset () {
         operand = nil
         total = nil
