@@ -28,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		F450C5001A076C760052887B /* CalcBrainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcBrainModel.swift; sourceTree = "<group>"; };
-		F46420F51A02C363006F6227 /* SwiftCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46420F51A02C363006F6227 /* Swift Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46420F91A02C363006F6227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F46420FA1A02C363006F6227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F46420FC1A02C363006F6227 /* CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		F46420F61A02C363006F6227 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F46420F51A02C363006F6227 /* SwiftCalculator.app */,
+				F46420F51A02C363006F6227 /* Swift Calculator.app */,
 				F464210A1A02C363006F6227 /* SwiftCalculatorTests.xctest */,
 			);
 			name = Products;
@@ -132,7 +132,7 @@
 			);
 			name = "Swift Calculator";
 			productName = SwiftCalculator;
-			productReference = F46420F51A02C363006F6227 /* SwiftCalculator.app */;
+			productReference = F46420F51A02C363006F6227 /* Swift Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F46421091A02C363006F6227 /* SwiftCalculatorTests */ = {

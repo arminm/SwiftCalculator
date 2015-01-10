@@ -24,6 +24,9 @@
                                     <color key="titleColor" red="0.16862745100000001" green="0.69411764710000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="115" y="131" width="75.5" height="160.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d5B-QL-94h"/>
                                 </connections>
@@ -68,6 +71,9 @@
                                     <color key="titleColor" red="0.16862745100000001" green="0.69411764710000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="115" y="296" width="75.5" height="160"/>
+                                </variation>
                                 <connections>
                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ket-re-MAP"/>
                                 </connections>
@@ -112,6 +118,9 @@
                                     <color key="titleColor" red="0.16862745100000001" green="0.69411764710000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="115" y="461" width="75.5" height="160.5"/>
+                                </variation>
                                 <connections>
                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3cu-GG-mtr"/>
                                 </connections>
@@ -156,6 +165,9 @@
                                     <color key="titleColor" red="0.16862745100000001" green="0.69411764710000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="115" y="620" width="75.5" height="160"/>
+                                </variation>
                                 <connections>
                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BGe-3b-xgs"/>
                                 </connections>
@@ -283,7 +295,6 @@
                             <constraint firstItem="Jim-Gi-DB2" firstAttribute="top" secondItem="4Bb-fh-iJf" secondAttribute="bottom" constant="5" id="z49-ZR-P01"/>
                             <constraint firstItem="2QA-xk-JZj" firstAttribute="width" secondItem="it8-Cs-bLA" secondAttribute="width" id="zAL-NW-JnQ"/>
                         </constraints>
-                        <variation key="heightClass=regular"/>
                     </view>
                     <connections>
                         <outlet property="resultLabel" destination="oOj-Fz-zz9" id="3HK-Sv-NhN"/>
